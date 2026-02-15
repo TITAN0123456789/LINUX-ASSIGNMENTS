@@ -1,0 +1,7 @@
+total 4
+-rw-rw-r-- 1 titan007 titan007    0 Feb 15 23:23 output.txt
+-rw-rw-r-- 1 titan007 titan007    0 Feb 15 23:22 file1
+-rw-rw-r-- 1 titan007 titan007    0 Feb 15 23:22 file2
+-rw-rw-r-- 1 titan007 titan007    0 Feb 15 23:22 file3
+lrwxrwxrwx 1 titan007 titan007   14 Feb 15 23:16 file_link -> dir1/dir2/file
+drwxrwxr-x 2 titan007 titan007 4096 Feb 15 23:16 dir2
