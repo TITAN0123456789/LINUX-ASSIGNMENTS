@@ -1,0 +1,1496 @@
+[
+  {
+    "_index": "packets-2024-12-31",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "23",
+          "frame.time": "Dec 31, 2024 12:50:25.890970000 India Standard Time",
+          "frame.time_utc": "Dec 31, 2024 07:20:25.890970000 UTC",
+          "frame.time_epoch": "1735629625.890970000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "677",
+          "frame.cap_len": "677",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "radiotap:wlan_radio:wlan"
+        },
+        "radiotap": {
+          "radiotap.version": "0",
+          "radiotap.pad": "0",
+          "radiotap.length": "48",
+          "radiotap.present": {
+            "radiotap.present.word": "0x4000086f",
+            "radiotap.present.word_tree": {
+              "radiotap.present.tsft": "1",
+              "radiotap.present.flags": "1",
+              "radiotap.present.rate": "1",
+              "radiotap.present.channel": "1",
+              "radiotap.present.fhss": "0",
+              "radiotap.present.dbm_antsignal": "1",
+              "radiotap.present.dbm_antnoise": "1",
+              "radiotap.present.lock_quality": "0",
+              "radiotap.present.tx_attenuation": "0",
+              "radiotap.present.db_tx_attenuation": "0",
+              "radiotap.present.dbm_tx_power": "0",
+              "radiotap.present.antenna": "1",
+              "radiotap.present.db_antsignal": "0",
+              "radiotap.present.db_antnoise": "0",
+              "radiotap.present.rxflags": "0",
+              "radiotap.present.txflags": "0",
+              "radiotap.present.data_retries": "0",
+              "radiotap.present.xchannel": "0",
+              "radiotap.present.mcs": "0",
+              "radiotap.present.ampdu": "0",
+              "radiotap.present.vht": "0",
+              "radiotap.present.timestamp": "0",
+              "radiotap.present.he": "0",
+              "radiotap.present.he_mu": "0",
+              "radiotap.present.0_length.psdu": "0",
+              "radiotap.present.l_sig": "0",
+              "radiotap.present.reserved": "0x00000000",
+              "radiotap.present.tlv": "0",
+              "radiotap.present.rtap_ns": "0",
+              "radiotap.present.vendor_ns": "1",
+              "radiotap.present.ext": "0"
+            }
+          },
+          "radiotap.mactime": "705704857604",
+          "radiotap.flags": "0x00",
+          "radiotap.flags_tree": {
+            "radiotap.flags.cfp": "0",
+            "radiotap.flags.preamble": "0",
+            "radiotap.flags.wep": "0",
+            "radiotap.flags.frag": "0",
+            "radiotap.flags.fcs": "0",
+            "radiotap.flags.datapad": "0",
+            "radiotap.flags.badfcs": "0",
+            "radiotap.flags.shortgi": "0"
+          },
+          "radiotap.datarate": "9",
+          "radiotap.channel.freq": "5955",
+          "radiotap.channel.flags": "0x0140",
+          "radiotap.channel.flags_tree": {
+            "radiotap.channel.flags.700mhz": "0",
+            "radiotap.channel.flags.800mhz": "0",
+            "radiotap.channel.flags.900mhz": "0",
+            "radiotap.channel.flags.turbo": "0",
+            "radiotap.channel.flags.cck": "0",
+            "radiotap.channel.flags.ofdm": "1",
+            "radiotap.channel.flags.2ghz": "0",
+            "radiotap.channel.flags.5ghz": "1",
+            "radiotap.channel.flags.passive": "0",
+            "radiotap.channel.flags.dynamic": "0",
+            "radiotap.channel.flags.gfsk": "0",
+            "radiotap.channel.flags.gsm": "0",
+            "radiotap.channel.flags.sturbo": "0",
+            "radiotap.channel.flags.half": "0",
+            "radiotap.channel.flags.quarter": "0"
+          },
+          "radiotap.dbm_antsignal": "0",
+          "radiotap.dbm_antnoise": "0",
+          "radiotap.antenna": "0",
+          "radiotap.vendor_namespace": "00:03:7f:00:10:00:2f:4f:00:00:00:00:00:00:00:00:00:00:af:4d:43:2c",
+          "radiotap.vendor_namespace_tree": {
+            "radiotap.vendor_oui": "895",
+            "radiotap.vendor_subns": "0",
+            "radiotap.vendor_data_len": "16",
+            "radiotap.vendor_data": ""
+          }
+        },
+        "wlan_radio": {
+          "wlan_radio.phy": "5",
+          "wlan_radio.11a.turbo_type": "0",
+          "wlan_radio.data_rate": "9",
+          "wlan_radio.channel": "1",
+          "wlan_radio.frequency": "5955",
+          "wlan_radio.signal_dbm": "0",
+          "wlan_radio.noise_dbm": "0",
+          "wlan_radio.snr": "0",
+          "wlan_radio.timestamp": "705704857604",
+          "wlan_radio.duration": "584",
+          "wlan_radio.duration_tree": {
+            "wlan_radio.preamble": "20",
+            "wlan_radio.start_tsf": "705704857020",
+            "wlan_radio.end_tsf": "705704857604"
+          }
+        },
+        "wlan": {
+          "wlan.fc.type_subtype": "0x0008",
+          "wlan.fc": "0x8000",
+          "wlan.fc_tree": {
+            "wlan.fc.version": "0",
+            "wlan.fc.type": "0",
+            "wlan.fc.subtype": "8",
+            "wlan.flags": "0x00",
+            "wlan.flags_tree": {
+              "wlan.fc.ds": "0x00",
+              "wlan.fc.tods": "0",
+              "wlan.fc.fromds": "0",
+              "wlan.fc.frag": "0",
+              "wlan.fc.retry": "0",
+              "wlan.fc.pwrmgt": "0",
+              "wlan.fc.moredata": "0",
+              "wlan.fc.protected": "0",
+              "wlan.fc.order": "0"
+            }
+          },
+          "wlan.duration": "0",
+          "wlan.ra": "ff:ff:ff:ff:ff:ff",
+          "wlan.ra_resolved": "Broadcast",
+          "wlan.addr": "ff:ff:ff:ff:ff:ff",
+          "wlan.addr_resolved": "Broadcast",
+          "wlan.da": "ff:ff:ff:ff:ff:ff",
+          "wlan.da_resolved": "Broadcast",
+          "wlan.ta": "80:f0:cf:fe:ab:77",
+          "wlan.ta_resolved": "RuckusWirele_fe:ab:77",
+          "wlan.sa": "80:f0:cf:fe:ab:77",
+          "wlan.sa_resolved": "RuckusWirele_fe:ab:77",
+          "wlan.bssid": "80:f0:cf:fe:ab:77",
+          "wlan.bssid_resolved": "RuckusWirele_fe:ab:77",
+          "wlan.addr": "80:f0:cf:fe:ab:77",
+          "wlan.addr_resolved": "RuckusWirele_fe:ab:77",
+          "wlan.addr": "80:f0:cf:fe:ab:77",
+          "wlan.addr_resolved": "RuckusWirele_fe:ab:77",
+          "wlan.frag": "0",
+          "wlan.seq": "2946",
+          "wlan.flags.str": "........"
+        },
+        "wlan.mgt": {
+          "wlan.fixed.all": {
+            "wlan.fixed.timestamp": "56",
+            "wlan.fixed.beacon": "100",
+            "wlan.fixed.capabilities": "0x0511",
+            "wlan.fixed.capabilities_tree": {
+              "wlan.fixed.capabilities.ess": "1",
+              "wlan.fixed.capabilities.ibss": "0",
+              "wlan.fixed.capabilities.reserved1": "0",
+              "wlan.fixed.capabilities.reserved2": "0",
+              "wlan.fixed.capabilities.privacy": "1",
+              "wlan.fixed.capabilities.short_preamble": "0",
+              "wlan.fixed.capabilities.critical_update_flag": "0",
+              "wlan.fixed.capabilities.nontran_bss_critical_update_flag": "0",
+              "wlan.fixed.capabilities.spec_man": "1",
+              "wlan.fixed.capabilities.qos": "0",
+              "wlan.fixed.capabilities.short_slot_time": "1",
+              "wlan.fixed.capabilities.apsd": "0",
+              "wlan.fixed.capabilities.radio_measurement": "0",
+              "wlan.fixed.capabilities.epd": "0",
+              "wlan.fixed.capabilities.reserved5": "0",
+              "wlan.fixed.capabilities.reserved6": "0"
+            }
+          },
+          "wlan.tagged.all": {
+            "wlan.tag": {
+              "wlan.tag.number": "0",
+              "wlan.tag.length": "10",
+              "wlan.ssid": "52:4b:53:5f:54:58:5f:56:41:50"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "1",
+              "wlan.tag.length": "8",
+              "wlan.supported_rates": "0x8c",
+              "wlan.supported_rates": "0x12",
+              "wlan.supported_rates": "0x98",
+              "wlan.supported_rates": "0x24",
+              "wlan.supported_rates": "0xb0",
+              "wlan.supported_rates": "0x48",
+              "wlan.supported_rates": "0x60",
+              "wlan.supported_rates": "0x6c"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "5",
+              "wlan.tag.length": "4",
+              "wlan.tim.dtim_count": "0",
+              "wlan.tim.dtim_period": "1",
+              "wlan.tim.bmapctl": "0x00",
+              "wlan.tim.bmapctl_tree": {
+                "wlan.tim.bmapctl.multicast": "0",
+                "wlan.tim.bmapctl.offset": "0x00"
+              },
+              "wlan.tim.partial_virtual_bitmap": "00"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "7",
+              "wlan.tag.length": "10",
+              "wlan.country_info.code": "US",
+              "wlan.country_info.environment": "4",
+              "wlan.country_info.rrc": {
+                "wlan.country_info.rrc.oei": "201",
+                "wlan.country_info.rrc.oc": "131",
+                "wlan.country_info.rrc.cc": "0"
+              },
+              "wlan.country_info.fnm": {
+                "wlan.country_info.fnm.fcn": "1",
+                "wlan.country_info.fnm.nc": "59",
+                "wlan.country_info.fnm.mtpl": "0"
+              },
+              "wlan.country_info.padding": "00"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "32",
+              "wlan.tag.length": "1",
+              "wlan.powercon.local": "3"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "35",
+              "wlan.tag.length": "2",
+              "wlan.tcprep.trsmt_pow": "21",
+              "wlan.tcprep.link_mrg": "0"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "50",
+              "wlan.tag.length": "1",
+              "wlan.extended_supported_rates": "0xfb"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "48",
+              "wlan.tag.length": "20",
+              "wlan.rsn.version": "1",
+              "wlan.rsn.gcs": "1027076",
+              "wlan.rsn.gcs_tree": {
+                "wlan.rsn.gcs.oui": "4012",
+                "wlan.rsn.gcs.type": "4"
+              },
+              "wlan.rsn.pcs.count": "1",
+              "wlan.rsn.pcs.list": {
+                "wlan.rsn.pcs": "1027076",
+                "wlan.rsn.pcs_tree": {
+                  "wlan.rsn.pcs.oui": "4012",
+                  "wlan.rsn.pcs.type": "4"
+                }
+              },
+              "wlan.rsn.akms.count": "1",
+              "wlan.rsn.akms.list": {
+                "wlan.rsn.akms": "1027080",
+                "wlan.rsn.akms_tree": {
+                  "wlan.rsn.akms.oui": "4012",
+                  "wlan.rsn.akms.type": "8"
+                }
+              },
+              "wlan.rsn.capabilities": "0x00e8",
+              "wlan.rsn.capabilities_tree": {
+                "wlan.rsn.capabilities.preauth": "0",
+                "wlan.rsn.capabilities.no_pairwise": "0",
+                "wlan.rsn.capabilities.ptksa_replay_counter": "0x0002",
+                "wlan.rsn.capabilities.gtksa_replay_counter": "0x0002",
+                "wlan.rsn.capabilities.mfpr": "1",
+                "wlan.rsn.capabilities.mfpc": "1",
+                "wlan.rsn.capabilities.jmr": "0",
+                "wlan.rsn.capabilities.peerkey": "0",
+                "wlan.rsn.capabilities.extended_key_id_iaf": "0",
+                "wlan.rsn.capabilities.ocvc": "0"
+              }
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "11",
+              "wlan.tag.length": "5",
+              "wlan.qbss.version": "2",
+              "wlan.qbss.scount": "0",
+              "wlan.qbss.cu": "6",
+              "wlan.qbss.adc": "31250"
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "71",
+              "wlan.tag.length": "250",
+              "wlan.multiple_bssid": "3",
+              "Subelement: Nontransmitted BSSID Profile": {
+                "wlan.multiple_bssid.subelem.id": "0",
+                "wlan.multiple_bssid.subelem.len": "65",
+                "wlan.multiple_bssid.subelem.nontrans_profile": "53:02:11:15:00:09:30:2d:31:62:2d:74:65:73:74:55:03:01:01:00:0b:05:00:00:00:12:7a:46:05:73:da:00:00:0c:7f:0d:04:00:48:00:00:00:00:00:00:40:29:00:00:ff:0e:26:00:08:a9:ff:2f:a9:ff:45:75:ff:65:75:ff",
+                "wlan.tag": {
+                  "wlan.tag.number": "83",
+                  "wlan.tag.length": "2",
+                  "wlan.fixed.capabilities": "0x1511",
+                  "wlan.fixed.capabilities_tree": {
+                    "wlan.fixed.capabilities.ess": "1",
+                    "wlan.fixed.capabilities.ibss": "0",
+                    "wlan.fixed.capabilities.reserved1": "0",
+                    "wlan.fixed.capabilities.reserved2": "0",
+                    "wlan.fixed.capabilities.privacy": "1",
+                    "wlan.fixed.capabilities.short_preamble": "0",
+                    "wlan.fixed.capabilities.critical_update_flag": "0",
+                    "wlan.fixed.capabilities.nontran_bss_critical_update_flag": "0",
+                    "wlan.fixed.capabilities.spec_man": "1",
+                    "wlan.fixed.capabilities.qos": "0",
+                    "wlan.fixed.capabilities.short_slot_time": "1",
+                    "wlan.fixed.capabilities.apsd": "0",
+                    "wlan.fixed.capabilities.radio_measurement": "1",
+                    "wlan.fixed.capabilities.epd": "0",
+                    "wlan.fixed.capabilities.reserved5": "0",
+                    "wlan.fixed.capabilities.reserved6": "0"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "0",
+                  "wlan.tag.length": "9",
+                  "wlan.ssid": "30:2d:31:62:2d:74:65:73:74"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "85",
+                  "wlan.tag.length": "3",
+                  "wlan.multiple_bssid_index.bssid_index": "1",
+                  "wlan.multiple_bssid_index.dtim_period": "1",
+                  "wlan.multiple_bssid_index.dtim_count": "0"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "11",
+                  "wlan.tag.length": "5",
+                  "wlan.qbss.version": "2",
+                  "wlan.qbss.scount": "0",
+                  "wlan.qbss.cu": "0",
+                  "wlan.qbss.adc": "31250"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "70",
+                  "wlan.tag.length": "5",
+                  "wlan.rmcap": "0x73",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b0": "1",
+                    "wlan.rmcap.b1": "1",
+                    "wlan.rmcap.b2": "0",
+                    "wlan.rmcap.b3": "0",
+                    "wlan.rmcap.b4": "1",
+                    "wlan.rmcap.b5": "1",
+                    "wlan.rmcap.b6": "1",
+                    "wlan.rmcap.b7": "0"
+                  },
+                  "wlan.rmcap": "0xda",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b8": "0",
+                    "wlan.rmcap.b9": "1",
+                    "wlan.rmcap.b10": "0",
+                    "wlan.rmcap.b11": "1",
+                    "wlan.rmcap.b12": "1",
+                    "wlan.rmcap.b13": "0",
+                    "wlan.rmcap.b14": "1",
+                    "wlan.rmcap.b15": "1"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b16": "0",
+                    "wlan.rmcap.b17": "0",
+                    "wlan.rmcap.b18to20": "0",
+                    "wlan.rmcap.b21to23": "0"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b24to26": "0",
+                    "wlan.rmcap.b27": "0",
+                    "wlan.rmcap.b28": "0",
+                    "wlan.rmcap.b29": "0",
+                    "wlan.rmcap.b30": "0",
+                    "wlan.rmcap.b31": "0"
+                  },
+                  "wlan.rmcap": "0x0c",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b32": "0",
+                    "wlan.rmcap.b33": "0",
+                    "wlan.rmcap.b34": "1",
+                    "wlan.rmcap.b35": "1",
+                    "wlan.rmcap.o5": "0x00"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "127",
+                  "wlan.tag.length": "13",
+                  "wlan.extcap": "0x04",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b0": "0",
+                    "wlan.extcap.b1": "0x00",
+                    "wlan.extcap.b2": "1",
+                    "wlan.extcap.b3": "0x00",
+                    "wlan.extcap.b4": "0",
+                    "wlan.extcap.b5": "0x00",
+                    "wlan.extcap.b6": "0",
+                    "wlan.extcap.b7": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b8": "0",
+                    "wlan.extcap.b9": "0",
+                    "wlan.extcap.b10": "0",
+                    "wlan.extcap.b11": "0",
+                    "wlan.extcap.b12": "0",
+                    "wlan.extcap.b13": "0",
+                    "wlan.extcap.b14": "0",
+                    "wlan.extcap.b15": "0"
+                  },
+                  "wlan.extcap": "0x48",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b16": "0",
+                    "wlan.extcap.b17": "0",
+                    "wlan.extcap.b18": "0",
+                    "wlan.extcap.b19": "1",
+                    "wlan.extcap.b20": "0",
+                    "wlan.extcap.b21": "0",
+                    "wlan.extcap.b22": "1",
+                    "wlan.extcap.b23": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b24": "0",
+                    "wlan.extcap.b25": "0",
+                    "wlan.extcap.b26": "0",
+                    "wlan.extcap.b27": "0",
+                    "wlan.extcap.b28": "0",
+                    "wlan.extcap.b29": "0",
+                    "wlan.extcap.b30": "0",
+                    "wlan.extcap.b31": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b32": "0",
+                    "wlan.extcap.b33": "0",
+                    "wlan.extcap.b34": "0",
+                    "wlan.extcap.b35": "0x00",
+                    "wlan.extcap.b36": "0",
+                    "wlan.extcap.b37": "0",
+                    "wlan.extcap.b38": "0",
+                    "wlan.extcap.b39": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b40": "0",
+                    "wlan.extcap.serv_int_granularity": "0",
+                    "wlan.extcap.b44": "0",
+                    "wlan.extcap.b45": "0",
+                    "wlan.extcap.b46": "0",
+                    "wlan.extcap.b47": "0x00"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b48": "0",
+                    "wlan.extcap.b49": "0",
+                    "wlan.extcap.b50": "0",
+                    "wlan.extcap.b51": "0",
+                    "wlan.extcap.b52": "0",
+                    "wlan.extcap.b53": "0",
+                    "wlan.extcap.b54": "0",
+                    "wlan.extcap.b55": "0"
+                  },
+                  "wlan.extcap": "0x0000",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b56": "0",
+                    "wlan.extcap.b57": "0",
+                    "wlan.extcap.b58": "0",
+                    "wlan.extcap.b59": "0x0000",
+                    "wlan.extcap.b60": "0",
+                    "wlan.extcap.b61": "0",
+                    "wlan.extcap.b62": "0",
+                    "wlan.extcap.b63": "0",
+                    "wlan.extcap.b65": "0",
+                    "wlan.extcap.b66": "0",
+                    "wlan.extcap.b67": "0",
+                    "wlan.extcap.b68": "0",
+                    "wlan.extcap.b69": "0",
+                    "wlan.extcap.b70": "0",
+                    "wlan.extcap.b71": "0"
+                  },
+                  "wlan.extcap": "0x40",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b72": "0",
+                    "wlan.extcap.b73": "0",
+                    "wlan.extcap.b74": "0",
+                    "wlan.extcap.b75": "0x00",
+                    "wlan.extcap.b76": "0x00",
+                    "wlan.extcap.b77": "0",
+                    "wlan.extcap.b78": "1",
+                    "wlan.extcap.b79": "0"
+                  },
+                  "wlan.extcap": "0x29",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b80": "1",
+                    "wlan.extcap.b81": "0",
+                    "wlan.extcap.b82": "0",
+                    "wlan.extcap.b83": "1",
+                    "wlan.extcap.b84": "0",
+                    "wlan.extcap.b85": "1",
+                    "wlan.extcap.b86": "0",
+                    "wlan.extcap.b87": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b88": "0",
+                    "wlan.extcap.b89": "0x00",
+                    "wlan.extcap.b90": "0",
+                    "wlan.extcap.b91": "0",
+                    "wlan.extcap.b92": "0",
+                    "wlan.extcap.b93": "0",
+                    "wlan.extcap.b94": "0",
+                    "wlan.extcap.b95": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.dmg_location": "0",
+                    "wlan.extcap.i2r_lmr_feedback_policy": "0",
+                    "wlan.extcap.reserved2": "0x00"
+                  }
+                },
+                "wlan.ext_tag": {
+                  "wlan.ext_tag.length": "13",
+                  "wlan.ext_tag.number": "38",
+                  "wlan.fixed.qosinfo.ap": "0x00",
+                  "wlan.fixed.qosinfo.ap_tree": {
+                    "wlan.fixed.qosinfo.ap.edcaupdate": "0x00",
+                    "wlan.fixed.qosinfo.ap.qack": "0",
+                    "wlan.fixed.qosinfo.ap.queue_req": "0",
+                    "wlan.fixed.qosinfo.ap.txopreq": "0",
+                    "wlan.fixed.qosinfo.ap.more_data_ack": "0"
+                  },
+                  "MUAC_BE Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x08",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "8",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_BK Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x2f",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "15",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "1",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_VI Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x45",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "5",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "2",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0x75",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_VO Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x65",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "5",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "3",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0x75",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  }
+                }
+              },
+              "Subelement: Nontransmitted BSSID Profile": {
+                "wlan.multiple_bssid.subelem.id": "0",
+                "wlan.multiple_bssid.subelem.len": "65",
+                "wlan.multiple_bssid.subelem.nontrans_profile": "53:02:11:15:00:09:30:2d:31:62:2d:77:70:61:33:55:03:02:01:00:0b:05:00:00:00:12:7a:46:05:73:da:00:00:0c:7f:0d:04:00:48:00:00:00:00:00:00:40:29:00:00:ff:0e:26:00:08:a9:ff:2f:a9:ff:45:75:ff:65:75:ff",
+                "wlan.tag": {
+                  "wlan.tag.number": "83",
+                  "wlan.tag.length": "2",
+                  "wlan.fixed.capabilities": "0x1511",
+                  "wlan.fixed.capabilities_tree": {
+                    "wlan.fixed.capabilities.ess": "1",
+                    "wlan.fixed.capabilities.ibss": "0",
+                    "wlan.fixed.capabilities.reserved1": "0",
+                    "wlan.fixed.capabilities.reserved2": "0",
+                    "wlan.fixed.capabilities.privacy": "1",
+                    "wlan.fixed.capabilities.short_preamble": "0",
+                    "wlan.fixed.capabilities.critical_update_flag": "0",
+                    "wlan.fixed.capabilities.nontran_bss_critical_update_flag": "0",
+                    "wlan.fixed.capabilities.spec_man": "1",
+                    "wlan.fixed.capabilities.qos": "0",
+                    "wlan.fixed.capabilities.short_slot_time": "1",
+                    "wlan.fixed.capabilities.apsd": "0",
+                    "wlan.fixed.capabilities.radio_measurement": "1",
+                    "wlan.fixed.capabilities.epd": "0",
+                    "wlan.fixed.capabilities.reserved5": "0",
+                    "wlan.fixed.capabilities.reserved6": "0"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "0",
+                  "wlan.tag.length": "9",
+                  "wlan.ssid": "30:2d:31:62:2d:77:70:61:33"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "85",
+                  "wlan.tag.length": "3",
+                  "wlan.multiple_bssid_index.bssid_index": "2",
+                  "wlan.multiple_bssid_index.dtim_period": "1",
+                  "wlan.multiple_bssid_index.dtim_count": "0"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "11",
+                  "wlan.tag.length": "5",
+                  "wlan.qbss.version": "2",
+                  "wlan.qbss.scount": "0",
+                  "wlan.qbss.cu": "0",
+                  "wlan.qbss.adc": "31250"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "70",
+                  "wlan.tag.length": "5",
+                  "wlan.rmcap": "0x73",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b0": "1",
+                    "wlan.rmcap.b1": "1",
+                    "wlan.rmcap.b2": "0",
+                    "wlan.rmcap.b3": "0",
+                    "wlan.rmcap.b4": "1",
+                    "wlan.rmcap.b5": "1",
+                    "wlan.rmcap.b6": "1",
+                    "wlan.rmcap.b7": "0"
+                  },
+                  "wlan.rmcap": "0xda",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b8": "0",
+                    "wlan.rmcap.b9": "1",
+                    "wlan.rmcap.b10": "0",
+                    "wlan.rmcap.b11": "1",
+                    "wlan.rmcap.b12": "1",
+                    "wlan.rmcap.b13": "0",
+                    "wlan.rmcap.b14": "1",
+                    "wlan.rmcap.b15": "1"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b16": "0",
+                    "wlan.rmcap.b17": "0",
+                    "wlan.rmcap.b18to20": "0",
+                    "wlan.rmcap.b21to23": "0"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b24to26": "0",
+                    "wlan.rmcap.b27": "0",
+                    "wlan.rmcap.b28": "0",
+                    "wlan.rmcap.b29": "0",
+                    "wlan.rmcap.b30": "0",
+                    "wlan.rmcap.b31": "0"
+                  },
+                  "wlan.rmcap": "0x0c",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b32": "0",
+                    "wlan.rmcap.b33": "0",
+                    "wlan.rmcap.b34": "1",
+                    "wlan.rmcap.b35": "1",
+                    "wlan.rmcap.o5": "0x00"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "127",
+                  "wlan.tag.length": "13",
+                  "wlan.extcap": "0x04",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b0": "0",
+                    "wlan.extcap.b1": "0x00",
+                    "wlan.extcap.b2": "1",
+                    "wlan.extcap.b3": "0x00",
+                    "wlan.extcap.b4": "0",
+                    "wlan.extcap.b5": "0x00",
+                    "wlan.extcap.b6": "0",
+                    "wlan.extcap.b7": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b8": "0",
+                    "wlan.extcap.b9": "0",
+                    "wlan.extcap.b10": "0",
+                    "wlan.extcap.b11": "0",
+                    "wlan.extcap.b12": "0",
+                    "wlan.extcap.b13": "0",
+                    "wlan.extcap.b14": "0",
+                    "wlan.extcap.b15": "0"
+                  },
+                  "wlan.extcap": "0x48",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b16": "0",
+                    "wlan.extcap.b17": "0",
+                    "wlan.extcap.b18": "0",
+                    "wlan.extcap.b19": "1",
+                    "wlan.extcap.b20": "0",
+                    "wlan.extcap.b21": "0",
+                    "wlan.extcap.b22": "1",
+                    "wlan.extcap.b23": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b24": "0",
+                    "wlan.extcap.b25": "0",
+                    "wlan.extcap.b26": "0",
+                    "wlan.extcap.b27": "0",
+                    "wlan.extcap.b28": "0",
+                    "wlan.extcap.b29": "0",
+                    "wlan.extcap.b30": "0",
+                    "wlan.extcap.b31": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b32": "0",
+                    "wlan.extcap.b33": "0",
+                    "wlan.extcap.b34": "0",
+                    "wlan.extcap.b35": "0x00",
+                    "wlan.extcap.b36": "0",
+                    "wlan.extcap.b37": "0",
+                    "wlan.extcap.b38": "0",
+                    "wlan.extcap.b39": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b40": "0",
+                    "wlan.extcap.serv_int_granularity": "0",
+                    "wlan.extcap.b44": "0",
+                    "wlan.extcap.b45": "0",
+                    "wlan.extcap.b46": "0",
+                    "wlan.extcap.b47": "0x00"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b48": "0",
+                    "wlan.extcap.b49": "0",
+                    "wlan.extcap.b50": "0",
+                    "wlan.extcap.b51": "0",
+                    "wlan.extcap.b52": "0",
+                    "wlan.extcap.b53": "0",
+                    "wlan.extcap.b54": "0",
+                    "wlan.extcap.b55": "0"
+                  },
+                  "wlan.extcap": "0x0000",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b56": "0",
+                    "wlan.extcap.b57": "0",
+                    "wlan.extcap.b58": "0",
+                    "wlan.extcap.b59": "0x0000",
+                    "wlan.extcap.b60": "0",
+                    "wlan.extcap.b61": "0",
+                    "wlan.extcap.b62": "0",
+                    "wlan.extcap.b63": "0",
+                    "wlan.extcap.b65": "0",
+                    "wlan.extcap.b66": "0",
+                    "wlan.extcap.b67": "0",
+                    "wlan.extcap.b68": "0",
+                    "wlan.extcap.b69": "0",
+                    "wlan.extcap.b70": "0",
+                    "wlan.extcap.b71": "0"
+                  },
+                  "wlan.extcap": "0x40",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b72": "0",
+                    "wlan.extcap.b73": "0",
+                    "wlan.extcap.b74": "0",
+                    "wlan.extcap.b75": "0x00",
+                    "wlan.extcap.b76": "0x00",
+                    "wlan.extcap.b77": "0",
+                    "wlan.extcap.b78": "1",
+                    "wlan.extcap.b79": "0"
+                  },
+                  "wlan.extcap": "0x29",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b80": "1",
+                    "wlan.extcap.b81": "0",
+                    "wlan.extcap.b82": "0",
+                    "wlan.extcap.b83": "1",
+                    "wlan.extcap.b84": "0",
+                    "wlan.extcap.b85": "1",
+                    "wlan.extcap.b86": "0",
+                    "wlan.extcap.b87": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b88": "0",
+                    "wlan.extcap.b89": "0x00",
+                    "wlan.extcap.b90": "0",
+                    "wlan.extcap.b91": "0",
+                    "wlan.extcap.b92": "0",
+                    "wlan.extcap.b93": "0",
+                    "wlan.extcap.b94": "0",
+                    "wlan.extcap.b95": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.dmg_location": "0",
+                    "wlan.extcap.i2r_lmr_feedback_policy": "0",
+                    "wlan.extcap.reserved2": "0x00"
+                  }
+                },
+                "wlan.ext_tag": {
+                  "wlan.ext_tag.length": "13",
+                  "wlan.ext_tag.number": "38",
+                  "wlan.fixed.qosinfo.ap": "0x00",
+                  "wlan.fixed.qosinfo.ap_tree": {
+                    "wlan.fixed.qosinfo.ap.edcaupdate": "0x00",
+                    "wlan.fixed.qosinfo.ap.qack": "0",
+                    "wlan.fixed.qosinfo.ap.queue_req": "0",
+                    "wlan.fixed.qosinfo.ap.txopreq": "0",
+                    "wlan.fixed.qosinfo.ap.more_data_ack": "0"
+                  },
+                  "MUAC_BE Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x08",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "8",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_BK Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x2f",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "15",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "1",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_VI Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x45",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "5",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "2",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0x75",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_VO Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x65",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "5",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "3",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0x75",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  }
+                }
+              },
+              "Subelement: Nontransmitted BSSID Profile": {
+                "wlan.multiple_bssid.subelem.id": "0",
+                "wlan.multiple_bssid.subelem.len": "93",
+                "wlan.multiple_bssid.subelem.nontrans_profile": "53:02:11:15:00:08:30:2d:31:62:2d:6f:77:65:55:03:03:01:00:30:14:01:00:00:0f:ac:04:01:00:00:0f:ac:04:01:00:00:0f:ac:12:e8:00:0b:05:00:00:00:12:7a:46:05:73:da:00:00:0c:7f:0d:04:00:48:00:00:00:00:00:00:40:29:00:00:ff:0e:26:00:08:a9:ff:2f:a9:ff:45:75:ff:65:75:ff:ff:05:38:02:32:f4:00",
+                "wlan.tag": {
+                  "wlan.tag.number": "83",
+                  "wlan.tag.length": "2",
+                  "wlan.fixed.capabilities": "0x1511",
+                  "wlan.fixed.capabilities_tree": {
+                    "wlan.fixed.capabilities.ess": "1",
+                    "wlan.fixed.capabilities.ibss": "0",
+                    "wlan.fixed.capabilities.reserved1": "0",
+                    "wlan.fixed.capabilities.reserved2": "0",
+                    "wlan.fixed.capabilities.privacy": "1",
+                    "wlan.fixed.capabilities.short_preamble": "0",
+                    "wlan.fixed.capabilities.critical_update_flag": "0",
+                    "wlan.fixed.capabilities.nontran_bss_critical_update_flag": "0",
+                    "wlan.fixed.capabilities.spec_man": "1",
+                    "wlan.fixed.capabilities.qos": "0",
+                    "wlan.fixed.capabilities.short_slot_time": "1",
+                    "wlan.fixed.capabilities.apsd": "0",
+                    "wlan.fixed.capabilities.radio_measurement": "1",
+                    "wlan.fixed.capabilities.epd": "0",
+                    "wlan.fixed.capabilities.reserved5": "0",
+                    "wlan.fixed.capabilities.reserved6": "0"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "0",
+                  "wlan.tag.length": "8",
+                  "wlan.ssid": "30:2d:31:62:2d:6f:77:65"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "85",
+                  "wlan.tag.length": "3",
+                  "wlan.multiple_bssid_index.bssid_index": "3",
+                  "wlan.multiple_bssid_index.dtim_period": "1",
+                  "wlan.multiple_bssid_index.dtim_count": "0"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "48",
+                  "wlan.tag.length": "20",
+                  "wlan.rsn.version": "1",
+                  "wlan.rsn.gcs": "1027076",
+                  "wlan.rsn.gcs_tree": {
+                    "wlan.rsn.gcs.oui": "4012",
+                    "wlan.rsn.gcs.type": "4"
+                  },
+                  "wlan.rsn.pcs.count": "1",
+                  "wlan.rsn.pcs.list": {
+                    "wlan.rsn.pcs": "1027076",
+                    "wlan.rsn.pcs_tree": {
+                      "wlan.rsn.pcs.oui": "4012",
+                      "wlan.rsn.pcs.type": "4"
+                    }
+                  },
+                  "wlan.rsn.akms.count": "1",
+                  "wlan.rsn.akms.list": {
+                    "wlan.rsn.akms": "1027090",
+                    "wlan.rsn.akms_tree": {
+                      "wlan.rsn.akms.oui": "4012",
+                      "wlan.rsn.akms.type": "18"
+                    }
+                  },
+                  "wlan.rsn.capabilities": "0x00e8",
+                  "wlan.rsn.capabilities_tree": {
+                    "wlan.rsn.capabilities.preauth": "0",
+                    "wlan.rsn.capabilities.no_pairwise": "0",
+                    "wlan.rsn.capabilities.ptksa_replay_counter": "0x0002",
+                    "wlan.rsn.capabilities.gtksa_replay_counter": "0x0002",
+                    "wlan.rsn.capabilities.mfpr": "1",
+                    "wlan.rsn.capabilities.mfpc": "1",
+                    "wlan.rsn.capabilities.jmr": "0",
+                    "wlan.rsn.capabilities.peerkey": "0",
+                    "wlan.rsn.capabilities.extended_key_id_iaf": "0",
+                    "wlan.rsn.capabilities.ocvc": "0"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "11",
+                  "wlan.tag.length": "5",
+                  "wlan.qbss.version": "2",
+                  "wlan.qbss.scount": "0",
+                  "wlan.qbss.cu": "0",
+                  "wlan.qbss.adc": "31250"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "70",
+                  "wlan.tag.length": "5",
+                  "wlan.rmcap": "0x73",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b0": "1",
+                    "wlan.rmcap.b1": "1",
+                    "wlan.rmcap.b2": "0",
+                    "wlan.rmcap.b3": "0",
+                    "wlan.rmcap.b4": "1",
+                    "wlan.rmcap.b5": "1",
+                    "wlan.rmcap.b6": "1",
+                    "wlan.rmcap.b7": "0"
+                  },
+                  "wlan.rmcap": "0xda",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b8": "0",
+                    "wlan.rmcap.b9": "1",
+                    "wlan.rmcap.b10": "0",
+                    "wlan.rmcap.b11": "1",
+                    "wlan.rmcap.b12": "1",
+                    "wlan.rmcap.b13": "0",
+                    "wlan.rmcap.b14": "1",
+                    "wlan.rmcap.b15": "1"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b16": "0",
+                    "wlan.rmcap.b17": "0",
+                    "wlan.rmcap.b18to20": "0",
+                    "wlan.rmcap.b21to23": "0"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b24to26": "0",
+                    "wlan.rmcap.b27": "0",
+                    "wlan.rmcap.b28": "0",
+                    "wlan.rmcap.b29": "0",
+                    "wlan.rmcap.b30": "0",
+                    "wlan.rmcap.b31": "0"
+                  },
+                  "wlan.rmcap": "0x0c",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b32": "0",
+                    "wlan.rmcap.b33": "0",
+                    "wlan.rmcap.b34": "1",
+                    "wlan.rmcap.b35": "1",
+                    "wlan.rmcap.o5": "0x00"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "127",
+                  "wlan.tag.length": "13",
+                  "wlan.extcap": "0x04",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b0": "0",
+                    "wlan.extcap.b1": "0x00",
+                    "wlan.extcap.b2": "1",
+                    "wlan.extcap.b3": "0x00",
+                    "wlan.extcap.b4": "0",
+                    "wlan.extcap.b5": "0x00",
+                    "wlan.extcap.b6": "0",
+                    "wlan.extcap.b7": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b8": "0",
+                    "wlan.extcap.b9": "0",
+                    "wlan.extcap.b10": "0",
+                    "wlan.extcap.b11": "0",
+                    "wlan.extcap.b12": "0",
+                    "wlan.extcap.b13": "0",
+                    "wlan.extcap.b14": "0",
+                    "wlan.extcap.b15": "0"
+                  },
+                  "wlan.extcap": "0x48",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b16": "0",
+                    "wlan.extcap.b17": "0",
+                    "wlan.extcap.b18": "0",
+                    "wlan.extcap.b19": "1",
+                    "wlan.extcap.b20": "0",
+                    "wlan.extcap.b21": "0",
+                    "wlan.extcap.b22": "1",
+                    "wlan.extcap.b23": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b24": "0",
+                    "wlan.extcap.b25": "0",
+                    "wlan.extcap.b26": "0",
+                    "wlan.extcap.b27": "0",
+                    "wlan.extcap.b28": "0",
+                    "wlan.extcap.b29": "0",
+                    "wlan.extcap.b30": "0",
+                    "wlan.extcap.b31": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b32": "0",
+                    "wlan.extcap.b33": "0",
+                    "wlan.extcap.b34": "0",
+                    "wlan.extcap.b35": "0x00",
+                    "wlan.extcap.b36": "0",
+                    "wlan.extcap.b37": "0",
+                    "wlan.extcap.b38": "0",
+                    "wlan.extcap.b39": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b40": "0",
+                    "wlan.extcap.serv_int_granularity": "0",
+                    "wlan.extcap.b44": "0",
+                    "wlan.extcap.b45": "0",
+                    "wlan.extcap.b46": "0",
+                    "wlan.extcap.b47": "0x00"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b48": "0",
+                    "wlan.extcap.b49": "0",
+                    "wlan.extcap.b50": "0",
+                    "wlan.extcap.b51": "0",
+                    "wlan.extcap.b52": "0",
+                    "wlan.extcap.b53": "0",
+                    "wlan.extcap.b54": "0",
+                    "wlan.extcap.b55": "0"
+                  },
+                  "wlan.extcap": "0x0000",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b56": "0",
+                    "wlan.extcap.b57": "0",
+                    "wlan.extcap.b58": "0",
+                    "wlan.extcap.b59": "0x0000",
+                    "wlan.extcap.b60": "0",
+                    "wlan.extcap.b61": "0",
+                    "wlan.extcap.b62": "0",
+                    "wlan.extcap.b63": "0",
+                    "wlan.extcap.b65": "0",
+                    "wlan.extcap.b66": "0",
+                    "wlan.extcap.b67": "0",
+                    "wlan.extcap.b68": "0",
+                    "wlan.extcap.b69": "0",
+                    "wlan.extcap.b70": "0",
+                    "wlan.extcap.b71": "0"
+                  },
+                  "wlan.extcap": "0x40",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b72": "0",
+                    "wlan.extcap.b73": "0",
+                    "wlan.extcap.b74": "0",
+                    "wlan.extcap.b75": "0x00",
+                    "wlan.extcap.b76": "0x00",
+                    "wlan.extcap.b77": "0",
+                    "wlan.extcap.b78": "1",
+                    "wlan.extcap.b79": "0"
+                  },
+                  "wlan.extcap": "0x29",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b80": "1",
+                    "wlan.extcap.b81": "0",
+                    "wlan.extcap.b82": "0",
+                    "wlan.extcap.b83": "1",
+                    "wlan.extcap.b84": "0",
+                    "wlan.extcap.b85": "1",
+                    "wlan.extcap.b86": "0",
+                    "wlan.extcap.b87": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b88": "0",
+                    "wlan.extcap.b89": "0x00",
+                    "wlan.extcap.b90": "0",
+                    "wlan.extcap.b91": "0",
+                    "wlan.extcap.b92": "0",
+                    "wlan.extcap.b93": "0",
+                    "wlan.extcap.b94": "0",
+                    "wlan.extcap.b95": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.dmg_location": "0",
+                    "wlan.extcap.i2r_lmr_feedback_policy": "0",
+                    "wlan.extcap.reserved2": "0x00"
+                  }
+                },
+                "wlan.ext_tag": {
+                  "wlan.ext_tag.length": "13",
+                  "wlan.ext_tag.number": "38",
+                  "wlan.fixed.qosinfo.ap": "0x00",
+                  "wlan.fixed.qosinfo.ap_tree": {
+                    "wlan.fixed.qosinfo.ap.edcaupdate": "0x00",
+                    "wlan.fixed.qosinfo.ap.qack": "0",
+                    "wlan.fixed.qosinfo.ap.queue_req": "0",
+                    "wlan.fixed.qosinfo.ap.txopreq": "0",
+                    "wlan.fixed.qosinfo.ap.more_data_ack": "0"
+                  },
+                  "MUAC_BE Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x08",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "8",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_BK Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x2f",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "15",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "1",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_VI Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x45",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "5",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "2",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0x75",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_VO Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x65",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "5",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "3",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0x75",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  }
+                },
+                "wlan.ext_tag": {
+                  "wlan.ext_tag.length": "4",
+                  "wlan.ext_tag.number": "56",
+                  "Element ID List": {
+                    "wlan.ext_tag.non_inheritance.element_id_list.length": "2",
+                    "wlan.ext_tag.non_inheritance.element_id_list.element_id": "50",
+                    "wlan.ext_tag.non_inheritance.element_id_list.element_id": "244"
+                  },
+                  "Element ID Extension List": {
+                    "wlan.ext_tag.non_inheritance.element_id_ext_list.length": "0"
+                  }
+                }
+              },
+              "Subelement: Nontransmitted BSSID Profile": {
+                "wlan.multiple_bssid.subelem.id": "0",
+                "wlan.multiple_bssid.subelem.len": "18",
+                "wlan.multiple_bssid.subelem.nontrans_profile": "53:02:11:15:00:0c:30:2d:31:62:2d:74:65:73:74:31:31:31",
+                "wlan.tag": {
+                  "wlan.tag.number": "83",
+                  "wlan.tag.length": "2",
+                  "wlan.fixed.capabilities": "0x1511",
+                  "wlan.fixed.capabilities_tree": {
+                    "wlan.fixed.capabilities.ess": "1",
+                    "wlan.fixed.capabilities.ibss": "0",
+                    "wlan.fixed.capabilities.reserved1": "0",
+                    "wlan.fixed.capabilities.reserved2": "0",
+                    "wlan.fixed.capabilities.privacy": "1",
+                    "wlan.fixed.capabilities.short_preamble": "0",
+                    "wlan.fixed.capabilities.critical_update_flag": "0",
+                    "wlan.fixed.capabilities.nontran_bss_critical_update_flag": "0",
+                    "wlan.fixed.capabilities.spec_man": "1",
+                    "wlan.fixed.capabilities.qos": "0",
+                    "wlan.fixed.capabilities.short_slot_time": "1",
+                    "wlan.fixed.capabilities.apsd": "0",
+                    "wlan.fixed.capabilities.radio_measurement": "1",
+                    "wlan.fixed.capabilities.epd": "0",
+                    "wlan.fixed.capabilities.reserved5": "0",
+                    "wlan.fixed.capabilities.reserved6": "0"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "0",
+                  "wlan.tag.length": "12",
+                  "wlan.ssid": "30:2d:31:62:2d:74:65:73:74:31:31:31"
+                }
+              }
+            },
+            "wlan.tag": {
+              "wlan.tag.number": "71",
+              "wlan.tag.length": "53",
+              "wlan.multiple_bssid": "3",
+              "Subelement: Nontransmitted BSSID Profile": {
+                "wlan.multiple_bssid.subelem.id": "0",
+                "wlan.multiple_bssid.subelem.len": "50",
+                "wlan.multiple_bssid.subelem.nontrans_profile": "55:03:04:01:00:0b:05:01:00:00:12:7a:46:05:73:da:00:00:0c:7f:0d:04:00:48:00:00:00:00:00:00:40:29:00:00:ff:0e:26:00:08:a9:ff:2f:a9:ff:45:75:ff:65:75:ff",
+                "wlan.tag": {
+                  "wlan.tag.number": "85",
+                  "wlan.tag.length": "3",
+                  "wlan.multiple_bssid_index.bssid_index": "4",
+                  "wlan.multiple_bssid_index.dtim_period": "1",
+                  "wlan.multiple_bssid_index.dtim_count": "0"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "11",
+                  "wlan.tag.length": "5",
+                  "wlan.qbss.version": "2",
+                  "wlan.qbss.scount": "1",
+                  "wlan.qbss.cu": "0",
+                  "wlan.qbss.adc": "31250"
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "70",
+                  "wlan.tag.length": "5",
+                  "wlan.rmcap": "0x73",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b0": "1",
+                    "wlan.rmcap.b1": "1",
+                    "wlan.rmcap.b2": "0",
+                    "wlan.rmcap.b3": "0",
+                    "wlan.rmcap.b4": "1",
+                    "wlan.rmcap.b5": "1",
+                    "wlan.rmcap.b6": "1",
+                    "wlan.rmcap.b7": "0"
+                  },
+                  "wlan.rmcap": "0xda",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b8": "0",
+                    "wlan.rmcap.b9": "1",
+                    "wlan.rmcap.b10": "0",
+                    "wlan.rmcap.b11": "1",
+                    "wlan.rmcap.b12": "1",
+                    "wlan.rmcap.b13": "0",
+                    "wlan.rmcap.b14": "1",
+                    "wlan.rmcap.b15": "1"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b16": "0",
+                    "wlan.rmcap.b17": "0",
+                    "wlan.rmcap.b18to20": "0",
+                    "wlan.rmcap.b21to23": "0"
+                  },
+                  "wlan.rmcap": "0x00",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b24to26": "0",
+                    "wlan.rmcap.b27": "0",
+                    "wlan.rmcap.b28": "0",
+                    "wlan.rmcap.b29": "0",
+                    "wlan.rmcap.b30": "0",
+                    "wlan.rmcap.b31": "0"
+                  },
+                  "wlan.rmcap": "0x0c",
+                  "wlan.rmcap_tree": {
+                    "wlan.rmcap.b32": "0",
+                    "wlan.rmcap.b33": "0",
+                    "wlan.rmcap.b34": "1",
+                    "wlan.rmcap.b35": "1",
+                    "wlan.rmcap.o5": "0x00"
+                  }
+                },
+                "wlan.tag": {
+                  "wlan.tag.number": "127",
+                  "wlan.tag.length": "13",
+                  "wlan.extcap": "0x04",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b0": "0",
+                    "wlan.extcap.b1": "0x00",
+                    "wlan.extcap.b2": "1",
+                    "wlan.extcap.b3": "0x00",
+                    "wlan.extcap.b4": "0",
+                    "wlan.extcap.b5": "0x00",
+                    "wlan.extcap.b6": "0",
+                    "wlan.extcap.b7": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b8": "0",
+                    "wlan.extcap.b9": "0",
+                    "wlan.extcap.b10": "0",
+                    "wlan.extcap.b11": "0",
+                    "wlan.extcap.b12": "0",
+                    "wlan.extcap.b13": "0",
+                    "wlan.extcap.b14": "0",
+                    "wlan.extcap.b15": "0"
+                  },
+                  "wlan.extcap": "0x48",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b16": "0",
+                    "wlan.extcap.b17": "0",
+                    "wlan.extcap.b18": "0",
+                    "wlan.extcap.b19": "1",
+                    "wlan.extcap.b20": "0",
+                    "wlan.extcap.b21": "0",
+                    "wlan.extcap.b22": "1",
+                    "wlan.extcap.b23": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b24": "0",
+                    "wlan.extcap.b25": "0",
+                    "wlan.extcap.b26": "0",
+                    "wlan.extcap.b27": "0",
+                    "wlan.extcap.b28": "0",
+                    "wlan.extcap.b29": "0",
+                    "wlan.extcap.b30": "0",
+                    "wlan.extcap.b31": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b32": "0",
+                    "wlan.extcap.b33": "0",
+                    "wlan.extcap.b34": "0",
+                    "wlan.extcap.b35": "0x00",
+                    "wlan.extcap.b36": "0",
+                    "wlan.extcap.b37": "0",
+                    "wlan.extcap.b38": "0",
+                    "wlan.extcap.b39": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b40": "0",
+                    "wlan.extcap.serv_int_granularity": "0",
+                    "wlan.extcap.b44": "0",
+                    "wlan.extcap.b45": "0",
+                    "wlan.extcap.b46": "0",
+                    "wlan.extcap.b47": "0x00"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b48": "0",
+                    "wlan.extcap.b49": "0",
+                    "wlan.extcap.b50": "0",
+                    "wlan.extcap.b51": "0",
+                    "wlan.extcap.b52": "0",
+                    "wlan.extcap.b53": "0",
+                    "wlan.extcap.b54": "0",
+                    "wlan.extcap.b55": "0"
+                  },
+                  "wlan.extcap": "0x0000",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b56": "0",
+                    "wlan.extcap.b57": "0",
+                    "wlan.extcap.b58": "0",
+                    "wlan.extcap.b59": "0x0000",
+                    "wlan.extcap.b60": "0",
+                    "wlan.extcap.b61": "0",
+                    "wlan.extcap.b62": "0",
+                    "wlan.extcap.b63": "0",
+                    "wlan.extcap.b65": "0",
+                    "wlan.extcap.b66": "0",
+                    "wlan.extcap.b67": "0",
+                    "wlan.extcap.b68": "0",
+                    "wlan.extcap.b69": "0",
+                    "wlan.extcap.b70": "0",
+                    "wlan.extcap.b71": "0"
+                  },
+                  "wlan.extcap": "0x40",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b72": "0",
+                    "wlan.extcap.b73": "0",
+                    "wlan.extcap.b74": "0",
+                    "wlan.extcap.b75": "0x00",
+                    "wlan.extcap.b76": "0x00",
+                    "wlan.extcap.b77": "0",
+                    "wlan.extcap.b78": "1",
+                    "wlan.extcap.b79": "0"
+                  },
+                  "wlan.extcap": "0x29",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b80": "1",
+                    "wlan.extcap.b81": "0",
+                    "wlan.extcap.b82": "0",
+                    "wlan.extcap.b83": "1",
+                    "wlan.extcap.b84": "0",
+                    "wlan.extcap.b85": "1",
+                    "wlan.extcap.b86": "0",
+                    "wlan.extcap.b87": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.b88": "0",
+                    "wlan.extcap.b89": "0x00",
+                    "wlan.extcap.b90": "0",
+                    "wlan.extcap.b91": "0",
+                    "wlan.extcap.b92": "0",
+                    "wlan.extcap.b93": "0",
+                    "wlan.extcap.b94": "0",
+                    "wlan.extcap.b95": "0"
+                  },
+                  "wlan.extcap": "0x00",
+                  "wlan.extcap_tree": {
+                    "wlan.extcap.dmg_location": "0",
+                    "wlan.extcap.i2r_lmr_feedback_policy": "0",
+                    "wlan.extcap.reserved2": "0x00"
+                  }
+                },
+                "wlan.ext_tag": {
+                  "wlan.ext_tag.length": "13",
+                  "wlan.ext_tag.number": "38",
+                  "wlan.fixed.qosinfo.ap": "0x00",
+                  "wlan.fixed.qosinfo.ap_tree": {
+                    "wlan.fixed.qosinfo.ap.edcaupdate": "0x00",
+                    "wlan.fixed.qosinfo.ap.qack": "0",
+                    "wlan.fixed.qosinfo.ap.queue_req": "0",
+                    "wlan.fixed.qosinfo.ap.txopreq": "0",
+                    "wlan.fixed.qosinfo.ap.more_data_ack": "0"
+                  },
+                  "MUAC_BE Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x08",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "8",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    },
+                    "wlan.ext_tag.mu_edca_parameter_set.ecwmin_ecwmax": "0xa9",
+                    "wlan.ext_tag.mu_edca_parameter_set.mu_edca_timer": "0xff"
+                  },
+                  "MUAC_BK Parameter Record": {
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn": "0x2f",
+                    "wlan.ext_tag.mu_edca_parameter_set.aic_aifsn_tree": {
+                      "wlan.ext_tag.mu_edca_parameter_set.aifsn": "15",
+                      "wlan.ext_tag.mu_edca_parameter_set.acm": "0",
+                      "wlan.ext_tag.mu_edca_parameter_set.aci": "1",
+                      "wlan.ext_tag.mu_edca_parameter_set.reserved": "0"
+                    }
