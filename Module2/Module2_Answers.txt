@@ -1,0 +1,119 @@
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ touch fileA fileB
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+fileA  fileB
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ find . -type f -size +1M > large_files.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+fileA  fileB  fuji-mountain-with-milky-way-night.jpg  large_files.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ find . -type f -size +1M > large_files.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat large_files.txt 
+./fuji-mountain-with-milky-way-night.jpg
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ nano config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat config.txt 
+server=127.0.0.1
+database=127.0.0.1
+
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ sed 's/localhost/127.0.0.1/g' config.txt > updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  fileB                                   large_files.txt
+fileA       fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat updated_config.txt 
+server=127.0.0.1
+database=127.0.0.1
+
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ sed 's/localhost/127.0.0.2/g' config.txt > updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat updated_config.txt 
+server=127.0.0.1
+database=127.0.0.1
+
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ sed 's/127.0.0.1/127.0.0.2/g' config.txt > updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat updated_config.txt 
+server=127.0.0.2
+database=127.0.0.2
+
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ nano log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  fileB                                   large_files.txt
+fileA       fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  fileB                                   large_files.txt
+fileA       fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+fileA       large_files.txt
+fileB       log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ grep "ERROR" log.txt | grep -v "DEBUG" > filtered_log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat fil
+fileA             fileB             filtered_log.txt  
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat filtered_log.txt 
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi filtered_log.txt 
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vim log.txt 
+Command 'vim' not found, but can be installed with:
+sudo apt install vim        # version 2:9.1.0016-1ubuntu7.3, or
+sudo apt install neovim     # version 0.7.2-8
+sudo apt install vim-gtk3   # version 2:9.1.0016-1ubuntu7.3
+sudo apt install vim-motif  # version 2:9.1.0016-1ubuntu7.3
+sudo apt install vim-nox    # version 2:9.1.0016-1ubuntu7.3
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ sudo apt install vim
+[sudo] password for titan007: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 4 not upgraded.
+Need to get 9,160 kB of archives.
+After this operation, 41.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Ign:1 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-runtime all 2:9.1.0016-1ubuntu7.5
+Ign:2 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 vim amd64 2:9.1.0016-1ubuntu7.5
+Err:1 http://security.ubuntu.com/ubuntu noble-updates/main amd64 vim-runtime all 2:9.1.0016-1ubuntu7.5
+  404  Not Found [IP: 91.189.92.24 80]
+Err:2 http://security.ubuntu.com/ubuntu noble-updates/main amd64 vim amd64 2:9.1.0016-1ubuntu7.5
+  404  Not Found [IP: 91.189.92.24 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/v/vim/vim-runtime_9.1.0016-1ubuntu7.5_all.deb  404  Not Found [IP: 91.189.92.24 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016-1ubuntu7.5_amd64.deb  404  Not Found [IP: 91.189.92.24 80]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vim log.txt 
+Command 'vim' not found, but can be installed with:
+sudo apt install vim        # version 2:9.1.0016-1ubuntu7.3, or
+sudo apt install neovim     # version 0.7.2-8
+sudo apt install vim-gtk3   # version 2:9.1.0016-1ubuntu7.3
+sudo apt install vim-motif  # version 2:9.1.0016-1ubuntu7.3
+sudo apt install vim-nox    # version 2:9.1.0016-1ubuntu7.3
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt 
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  filtered_log.txt                        log.txt
+fileA       fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+fileB       large_files.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ rm -rf log.txt 
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ rm -rf filtered_log.txt 
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  fileB                                   large_files.txt
+fileA       fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ vi log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ grep "ERROR" log.txt | grep -v "DEBUG" > filtered_log.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ls
+config.txt  filtered_log.txt                        log.txt
+fileA       fuji-mountain-with-milky-way-night.jpg  updated_config.txt
+fileB       large_files.txt
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ cat filtered_log.txt 
+ERROR: Unable to connect to the database. 
+ERROR: Failed to fetch data from API endpoint '/users'. 
+ERROR: Missing required parameter in the request. 
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ps -eo pid,comm,%mem --sort=-%mem | head -n 2
+    PID COMMAND         %MEM
+   6730 firefox          5.3
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ kill -9 6730
+titan007@MSI:~/Documents/Linux_Assignments/Module2$ ip route | grep default | awk '{print $3}' | sort
+10.0.2.2
+
